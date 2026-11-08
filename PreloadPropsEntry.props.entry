@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <CustomBuildLogicsRoot>../$(MSBuildThisFileDirectory)</CustomBuildLogicsRoot>
+    <EntryPointOfCustomBuildLogicsForUtilityPackages>$(CustomBuildLogicsRoot)CustomBuildLogicsForUtilityPackages\PreloadPropsEntry.props.entry</EntryPointOfCustomBuildLogicsForUtilityPackages>
+    <!-- <EntryPointOfCustomBuildLogicsForDevelopingProjects>$(CustomBuildLogicsRoot)CustomBuildLogicsForDevelopingProjects\PreloadPropsEntry.props.entry</EntryPointOfCustomBuildLogicsForDevelopingProjects> -->
+    
+    <IsGlobalCustomBuildEntryLoaded>true</IsGlobalCustomBuildEntryLoaded>
+  </PropertyGroup>
+</Project>
